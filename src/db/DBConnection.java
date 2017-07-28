@@ -30,9 +30,11 @@ public interface DBConnection {
   /**
    * Get the favorite item id for a user.
    * 
-   * @param userId
+   * @param userId 
    * @return itemIds
    */
+  
+  // 12345
   public Set<String> getFavoriteItemIds(String userId);
   
   /**
